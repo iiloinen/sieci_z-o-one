@@ -1,0 +1,47 @@
+{
+    "album_sales_data": {
+      "1989": {"year": 2014, "sales": 1.287},
+      "Red": {"year": 2012, "sales": 1.2},
+      "Lover": {"year": 2019, "sales": 0.876},
+      "Folklore": {"year": 2020, "sales": 0.846},
+      "Evermore": {"year": 2020, "sales": 0.329},
+      "Midnights": {"year": 2023, "sales": 1.141},
+      "Fearless": {"year": 2008, "sales": 0.535},
+      "Speak Now": {"year": 2010, "sales": 1.04},
+      "Self-titled": {"year": 2006, "sales": 0.04},
+      "Reputation": {"year": 2017, "sales": 1.2}
+    },
+    "distribution_avid_fans": {
+      "Millennials": 0.45,
+      "Baby Boomers": 0.23,
+      "Gen Xers": 0.21,
+      "Gen Z": 0.11
+    },
+    "generations": {
+      "Gen Z": {"Millennials": 0.1, "Gen Xers": 0.2, "Gen Z": 0.7, "Baby Boomers": 0.2},
+      "Gen Xers": {"Millennials": 0.2, "Gen Xers": 0.7, "Gen Z": 0.3, "Baby Boomers": 0.3},
+      "Millennials": {"Millennials": 0.7, "Gen Xers": 0.1, "Gen Z": 0.2, "Baby Boomers": 0.3},
+      "Baby Boomers": {"Millennials": 0.3, "Gen Xers": 0.1, "Gen Z": 0.2, "Baby Boomers": 0.4}
+    },
+
+    "album_pagerank": {
+      "1989": 0.15,
+      "Red": 0.12,
+      "Lover": 0.10,
+      "Folklore": 0.09,
+      "Evermore": 0.08,
+      "Midnights": 0.14,
+      "Fearless": 0.11,
+      "Speak Now": 0.13,
+      "Self-titled": 0.07,
+      "Reputation": 0.15
+    },
+    "color_map": {
+        "Millennials": "blue",
+        "Baby Boomers": "red",
+        "Gen Xers": "green", 
+        "Gen Z": "orange",
+        "album": "yellow"
+      }
+  }
+  
