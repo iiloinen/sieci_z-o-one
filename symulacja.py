@@ -175,7 +175,7 @@ class SimulationGraph():
 
         nx.draw_networkx_edges(self.PRGraph, pos=self.graph_pos, node_size= node_sizes, alpha=0.02, arrowstyle='-')
         nx.draw_networkx_nodes(self.PRGraph, pos=self.graph_pos, node_color=node_colors, node_size=node_sizes)
-xvccxxcvcxv
+
         plt.title(f'Fani albumów Taylor Swift w {year}')
 
         custom_handles = [
@@ -214,10 +214,10 @@ xvccxxcvcxv
 
 def make_a_video(start_year, end_year):
 
-    images = [f'{year}.png' for year in range(start_year, end_year)]
+    images = ['2006.png','2008.png','2010.png','2012.png','2014.png','2017.png','2019.png','2020.png','2023.png',]
     images.sort()
 
-    frm = cv2.imread(f'{end_year-1}.png')
+    frm = cv2.imread(f'2023.png')
     height, width, layers = frm.shape
 
     video = cv2.VideoWriter('output_video.mp4', cv2.VideoWriter_fourcc(*'mp4v'), 1, (width, height))
